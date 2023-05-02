@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 findspark = "*"
+seaborn = "*"
 
 [dev-packages]
 ipykernel = "*"
