@@ -7,6 +7,11 @@
 
 
 
+### How to use
+
+
+
+
 ### Prerequisites
 Python 3.8 or above and the following libraries
 
@@ -15,6 +20,8 @@ Python 3.8 or above and the following libraries
 - nltk, glob, difflib
 - rdflib
 ```
+
+
 
 ### Files
 ```
@@ -63,10 +70,6 @@ Python 3.8 or above and the following libraries
           
        
 ```
-
-### How to use
-
-
 
 
 ### Contributions 
