@@ -7,7 +7,7 @@ This study is based on a publicly available dataset [RecipeKG](https://github.co
 
 ## Quick Overview
 
-The initial step of the research involved acquiring the dataset from a SPARQL endpoint. Subsequently, the necessary information, including recipes, ingredients, and their health scores, was filtered. Different digitization methods, such as One-Hot Encoding, Word2Vec, and FastText, were then applied to process the data. The digitized data underwent binary classification, followed by multiclass classification using various machine learning methods.
+The initial step of the research involved acquiring the dataset from a SPARQL endpoint. Subsequently, the necessary information, including recipes, ingredients, and their health scores, was filtered. Different digitization methods, such as One-Hot Encoding, Word2Vec, and FastText, were then applied to process the ingredients. The digitized data underwent binary classification, followed by multiclass classification using various machine learning methods.
 
 
 ### How to use
