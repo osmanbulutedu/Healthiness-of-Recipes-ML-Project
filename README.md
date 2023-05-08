@@ -1,4 +1,4 @@
-# Healthiness-of-Recipes-ML-Project
+# Healthiness of Online Recipes by Machine Learning
 # Introduction
 People frequently turn to the internet for food-related choices. However, popular recipe websites have been found to contain a high number of unhealthy recipes. To address this, researchers have proposed healthy food recommendation systems. Determining recipe healthiness and finding suitable substitutions pose challenges for these recommendation systems. To address this issue, this study aims to develop a machine learning model for determining the healthiness of recipes.
 
