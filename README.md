@@ -12,3 +12,19 @@ Then recipes which have less than 5 ingredients can be truncated as well.
 5.Hot Encoding and Binary Classification (1).ipynb: After adding USDA and FSA score and binary labeling, hot encoding will be applied to recipes.
 Then, different ML methods will be applied on the CSR Matrix.
 6. multiclass-hot encoding1x.ipynb: Mulitclass classification using hot encoding of ingredients and nutrions. ingredients_v4.csv and recipes-properties.csv are used. 
+
+
+## Digitization Examples
+
+### Introduction
+
+The file `Digitization-Examples.ipynb` takes in the recipe-to-ingredient dataset and FDA/USDA labels to perform several methods of digitization to better clarify relations between ingredients. The two types of digitization methods utilized were fasttext and word2vec. These methods were then fed into binary and multinomial logistic regression models.
+
+### Prerequisites 
+
+NLP and Preprocessing should be applied first to derive the ingredients_v4.csv file. Once performed, the Digitization-Examples script can be run.
+
+### Expected Output
+
+For binary logistic regression, expect the accuracy, ROC curve and AUC to be logged for each test case. For multinomail, expect the accuracy along with a confusion matrix to be logged.
+
