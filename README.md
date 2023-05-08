@@ -2,11 +2,12 @@
 # Introduction
 People frequently turn to the internet for food-related choices. However, popular recipe websites have been found to contain a high number of unhealthy recipes. To address this, researchers have proposed healthy food recommendation systems. Determining recipe healthiness and finding suitable substitutions pose challenges for these recommendation systems. To address this issue, this study aims to develop a machine learning model for determining the healthiness of recipes.
 
-This study is based on a publicly available dataset [RecipeKG](https://github.com/IDIASLab/RecipeKG) of 77, 835 recipes published on the main site of Allrecipes.com between the years 1997 and 2021
+This study is based on a publicly available dataset [RecipeKG](https://github.com/IDIASLab/RecipeKG) of 77, 835 recipes published on the main site of Allrecipes.com between the years 1997 and 2021.
 
 
 ## Quick Overview
 
+The initial step of the research involved acquiring the dataset from a SPARQL endpoint. Subsequently, the necessary information, including recipes, ingredients, and their health scores, was filtered. Different digitization methods, such as One-Hot Encoding, Word2Vec, and FastText, were then applied to process the data. The digitized data underwent binary classification, followed by multiclass classification using various machine learning methods.
 
 
 ### How to use
