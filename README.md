@@ -10,9 +10,6 @@ This study is based on a publicly available dataset [RecipeKG](https://github.co
 The initial step of the research involved acquiring the dataset from a SPARQL endpoint. Subsequently, the necessary information, including recipes, ingredients, and their health scores, was filtered. Different digitization methods, such as One-Hot Encoding, Word2Vec, and FastText, were then applied to process the ingredients. The digitized data underwent binary classification, followed by multiclass classification using various machine learning methods.
 
 
-### How to use
-
-
 
 
 ### Prerequisites
@@ -23,8 +20,6 @@ Python 3.8 or above and the following libraries
 - nltk, glob, difflib
 - rdflib
 ```
-
-
 
 ### Files
 ```
@@ -51,9 +46,9 @@ Python 3.8 or above and the following libraries
 
    Data: 
    
-      ingredients_v1.csv : 
+      ingredients_v1.csv : ingredients usage amount in descending order.
 
-      ingredients_v2.csv: 
+      ingredients_v2.csv: All the upper cases converted to lower case. And also applied "Porter Stemmer" to the data
 
       ingredients_v3.csv: Both recipes and ingredients are stemmed and converted to lower case. No truncation was applied yet.
 
@@ -61,11 +56,11 @@ Python 3.8 or above and the following libraries
       Then these ingredients can be found in recipes and deleted from there. (Only ingredients not recipes)
       Then recipes which have less than 5 ingredients can be truncated as well.
 
-      recipes-properties.csv : 
+      recipes-properties.csv : Nutrients Properties of the recipes
 
-      recipes-scores.csv :
+      recipes-scores.csv : USDA and FSA scores of Recipes
 
-      recipes_v3.csv :
+      recipes_v3.csv : Recipes which have less than 5 ingredients can be truncated as well.
 
       recipes_v4.csv : 
 
