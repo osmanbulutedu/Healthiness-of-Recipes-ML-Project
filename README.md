@@ -64,7 +64,7 @@ Python 3.8 or above and the following libraries
 
       recipes_v4.csv : 
 
-      fast_text_input.txt : 
+      fast_text_input.txt : all of the ingredients from a csv broken down into a text document to be read in by the fasttext model. each line is a set of ingredients in a recipe
           
        
 ```
